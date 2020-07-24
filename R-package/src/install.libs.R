@@ -5,7 +5,7 @@ use_gpu <- FALSE
 # For Windows, the package will be built with Visual Studio
 # unless you set one of these to TRUE
 use_mingw <- FALSE
-use_msys2 <- FALSE
+use_msys2 <- TRUE
 
 if (use_mingw && use_msys2) {
   stop("Cannot use both MinGW and MSYS2. Please choose only one.")
